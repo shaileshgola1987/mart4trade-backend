@@ -16,6 +16,8 @@ COPY . /code/
 RUN pip install -r requirements.txt
 
 # Run the Django development server
+CMD ["python", "manage.py", "makemigrations"]
+CMD ["python", "manage.py", "migrate"]
 CMD ["python", "manage.py", "runserver"]
 CMD ["./manage.py", "runserver", "0.0.0.0:8000"]
 
