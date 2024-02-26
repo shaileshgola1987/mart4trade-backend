@@ -71,7 +71,7 @@ DATABASES = {
         'NAME': 'shivmarb_crm',
         'USER': 'shivmarb_crmuser',
         'PASSWORD': 'rahul123!@#',
-        'HOST': '89.116.121.141',  # Set to your PostgreSQL server's address if not localhost
+        'HOST': '172.17.0.1',  # Set to your PostgreSQL server's address if not localhost
         'PORT': '5432',       # Default PostgreSQL port
     }
 }
