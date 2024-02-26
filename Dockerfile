@@ -13,6 +13,7 @@ expose 8000
 COPY . /code/
 
 # Install any needed packages specified in requirements.txt
+RUN pip install --upgrade pip
 RUN pip install -r requirements.txt
 
 # Run the Django development server
